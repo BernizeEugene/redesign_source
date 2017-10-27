@@ -1,0 +1,55 @@
+/* selector {property:value;} */
+/*index page */
+#portfoliopage
+#aboutpage
+#indexpage
+#indexpage .mainnavigation li:nth-child(1) {background-color: rgba(0,0,0,0.3);}
+#portfoliopage .mainnavigation li:nth-child(2) {background-color: rgba(0,0,0,0.3);}
+#aboutpage .mainnavigation li:nth-child(3) {background-color: rgba(0,0,0,0.3);}
+
+/*top bar */
+
+.top-bar {
+background-color: lightgray;
+
+}
+
+
+.menu{
+  background-color: lightgray;
+}
+.menu li a {
+background-color: lightgray;
+font-size: 20px;
+
+}
+
+
+.sliderz {
+  margin-top: 10px;
+  padding: 15px;
+}
+/* Demo Styles */
+body {
+  padding: 2rem 1rem;
+}
+
+.docs-example-orbit-slide {
+  padding: 2rem 4rem;
+  color: $white;
+
+  .orbit-slide:nth-of-type(1) & {
+    background: dodgerblue;
+  }
+
+  .orbit-slide:nth-of-type(2) & {
+    background: rebeccapurple;
+  }
+
+  .orbit-slide:nth-of-type(3) & {
+    background: darkgoldenrod;
+  }
+
+  .orbit-slide:nth-of-type(4) & {
+    background: lightseagreen;
+  }
