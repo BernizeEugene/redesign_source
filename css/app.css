@@ -2,54 +2,70 @@
 /*index page */
 #portfoliopage
 #aboutpage
-#indexpage
+#homepage
 #indexpage .mainnavigation li:nth-child(1) {background-color: rgba(0,0,0,0.3);}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: rgba(0,0,0,0.3);}
 #aboutpage .mainnavigation li:nth-child(3) {background-color: rgba(0,0,0,0.3);}
 
 /*top bar */
 
-.top-bar {
-background-color: lightgray;
 
+
+.logo{
+  background-image: url(../photos/logo.png);
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  align-items: center;
 }
 
 
-.menu{
-  background-color: lightgray;
-}
-.menu li a {
-background-color: lightgray;
-font-size: 20px;
-
+.teaparty{
+  background-image: url(../photos/teaparty.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 200px;
 }
 
+.top-bar{
+margin-top: 8px;
+}
 
+.top-bar, .top-bar ul {
+  background-color: #47251F;
+}
+.top-bar, .top-bar ul a{
+  color: white;
+}
+.title-bar {
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+}
 .sliderz {
   margin-top: 10px;
   padding: 15px;
 }
-/* Demo Styles */
-body {
-  padding: 2rem 1rem;
+
+.orbit-caption{
+  background-color: white;
+  color: black;
+  text-align: center;
 }
 
-.docs-example-orbit-slide {
-  padding: 2rem 4rem;
-  color: $white;
 
-  .orbit-slide:nth-of-type(1) & {
-    background: dodgerblue;
+
+
+
+  .footer{
+    background-color: #47251F;
+    color: white;
+    height: 100px;
+    text-align: center;
   }
 
-  .orbit-slide:nth-of-type(2) & {
-    background: rebeccapurple;
-  }
-
-  .orbit-slide:nth-of-type(3) & {
-    background: darkgoldenrod;
-  }
-
-  .orbit-slide:nth-of-type(4) & {
-    background: lightseagreen;
+  footer h5 {
+    margin-top: 40px;
   }
