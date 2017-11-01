@@ -1,8 +1,11 @@
 /* selector {property:value;} */
 /*index page */
-#portfoliopage
-#aboutpage
-#homepage
+#portfoliopage,
+#aboutpage,
+#homepage {
+background-image: url(../photos/teaparty.jpg);
+
+}
 #indexpage .mainnavigation li:nth-child(1) {background-color: rgba(0,0,0,0.3);}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: rgba(0,0,0,0.3);}
 #aboutpage .mainnavigation li:nth-child(3) {background-color: rgba(0,0,0,0.3);}
@@ -21,12 +24,12 @@
 }
 
 
-.teaparty{
+/*.teaparty{
   background-image: url(../photos/teaparty.jpg);
   background-repeat: repeat-x;
   background-size: contain;
-  height: 200px;
-}
+  height: 200px;;
+}*/
 
 .top-bar{
 margin-top: 8px;
@@ -43,6 +46,10 @@ margin-top: 8px;
   margin-top: 15px;
 }
 
+.orbit-slider {
+
+}
+
 }
 .sliderz {
   margin-top: 10px;
@@ -56,7 +63,12 @@ margin-top: 8px;
 }
 
 
-
+.drinks {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
   .footer{
