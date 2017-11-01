@@ -1,5 +1,6 @@
 /* selector {property:value;} */
 /*index page */
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 #portfoliopage,
 #aboutpage,
 #homepage {
@@ -10,6 +11,9 @@ background-image: url(../photos/teaparty.jpg);
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: rgba(0,0,0,0.3);}
 #aboutpage .mainnavigation li:nth-child(3) {background-color: rgba(0,0,0,0.3);}
 
+h2 {font-family: 'Fredericka the Great', cursive;
+
+}
 /*top bar */
 
 
