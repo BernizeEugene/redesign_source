@@ -17,7 +17,6 @@ h2 {font-family: 'Fredericka the Great', cursive;
 /*top bar */
 
 
-
 .logo{
   background-image: url(../photos/logo.png);
   background-size: contain;
@@ -35,9 +34,24 @@ h2 {font-family: 'Fredericka the Great', cursive;
   height: 200px;;
 }*/
 
-.top-bar{
-margin-top: 8px;
+.main{
+  width: 100%;
+
 }
+
+.title-bar {
+  margin-right: 25px;
+  margin-top: 15px;
+  width: 100%;
+  background: #47251F;
+
+}
+
+.top-bar{
+margin-left: auto;
+margin-right: auto;
+}
+
 
 .top-bar, .top-bar ul {
   background-color: #47251F;
@@ -45,19 +59,30 @@ margin-top: 8px;
 .top-bar, .top-bar ul a{
   color: white;
 }
-.title-bar {
-  margin-right: 25px;
-  margin-top: 15px;
+
+#fb-icon{
+  width: 40px;
+  height: 40px;
 }
+
 
 .orbit-slider {
 
 }
 
-}
+
 .sliderz {
   margin-top: 10px;
   padding: 15px;
+}
+
+
+#gallary-slider {
+  position: fixed;
+  top: 100px;
+  margin-left: auto;
+  width: 80% !important;
+  z-index: 99999;
 }
 
 .orbit-caption{
