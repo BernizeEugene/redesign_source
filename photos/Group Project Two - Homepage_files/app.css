@@ -1,7 +1,6 @@
 /* selector {property:value;} */
 /*index page */
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Playfair+Display:700');
 #portfoliopage,
 #aboutpage,
 #homepage {
@@ -100,31 +99,6 @@ margin-right: auto;
   margin-bottom: 10px;
 }
 
-.map{margin-top: 15px;
-    margin-bottom: 15px;
-    }
-
-.info{  width: 400px;
-        font-size: 18px;
-        text-align: center;
-        font-family: 'Playfair Display', serif;
-        background-color: #fcf3cf;
-        border-radius: 15%;
-        border-color: #47251F;
-        border: 2px solid;
-        margin-bottom: 15px;
-      }
-
-.title{color: darkblue;
-      font-size: 22px;
-      font-family: 'Berkshire Swash', cursive;}
-
-.sunday{color: red;}
-
-.form{background-color: lightblue;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      }
 
   .footer{
     background-color: #47251F;
