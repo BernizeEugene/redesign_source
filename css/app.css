@@ -2,6 +2,7 @@
 /*index page */
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 #portfoliopage,
 #aboutpage,
 #homepage {
@@ -13,7 +14,9 @@ background-image: url(../photos/teaparty.jpg);
 #aboutpage .mainnavigation li:nth-child(3) {background-color: rgba(0,0,0,0.3);}
 
 h2 {font-family: 'Fredericka the Great', cursive;
-
+}
+p {font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
 }
 /*top bar */
 
