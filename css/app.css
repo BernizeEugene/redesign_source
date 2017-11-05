@@ -127,7 +127,12 @@ margin-right: auto;
 .form{background-color: lightblue;
       margin-top: 15px;
       margin-bottom: 15px;
+
       }
+
+.space {
+  margin-top: 30px;
+}
 
   .footer{
     background-color: #47251F;
