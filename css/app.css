@@ -40,7 +40,6 @@ p {font-family: 'Cabin Sketch', cursive;
 
 .main{
   width: 100%;
-
 }
 
 .title-bar {
@@ -95,20 +94,25 @@ margin-right: auto;
   text-align: center;
 }
 
-
+.drank {
+  background-color: #b09888;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .drinks {
   background-color: white;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.mapp { margin-bottom: 15px;}
 .map{margin-top: 15px;
     margin-bottom: 15px;
     }
 
-.info{  width: 400px;
-        font-size: 18px;
+.info{  width: 100%;
+        font-size: 16px;
         text-align: center;
         font-family: 'Playfair Display', serif;
         background-color: #fcf3cf;
@@ -116,6 +120,7 @@ margin-right: auto;
         border-color: #47251F;
         border: 2px solid;
         margin-bottom: 15px;
+        margin-top: 15px;
       }
 
 .title{color: darkblue;
@@ -123,6 +128,7 @@ margin-right: auto;
       font-family: 'Berkshire Swash', cursive;}
 
 .sunday{color: red;}
+
 
 .form{background-color: lightblue;
       margin-top: 15px;
@@ -137,10 +143,12 @@ margin-right: auto;
   .footer{
     background-color: #47251F;
     color: white;
-    height: 100px;
-    text-align: center;
+
+
   }
 
   footer h5 {
-    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
   }
