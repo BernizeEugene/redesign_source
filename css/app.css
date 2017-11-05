@@ -63,6 +63,12 @@ margin-right: auto;
   color: white;
 }
 
+.top-bar a:hover {
+  background-color: #b09888;
+  transition: all 1s;
+}
+
+
 #fb-icon{
   width: 40px;
   height: 40px;
